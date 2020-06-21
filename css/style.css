@@ -32,15 +32,15 @@ section>h2 {
     padding-top: 10px;
 }
 
-section.importance>h2 {
+section.carni>h2 {
     background-color: #008080;
 }
 
-section.what>h2 {
+section.omni>h2 {
     background-color: #ffd1dc;
 }
 
-section.todo>h2 {
+section.herbi>h2 {
     background-color: #77dd77;
 }
 
