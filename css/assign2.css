@@ -2,8 +2,9 @@
 	box-sizing: border-box;
 }
 body{
-background-color: orange;
+background-image: url(dest3.jpeg);
 background-size: 100% 100%;
+margin: 5px;
 }
 h1{
 	font-size: 75px;
@@ -13,7 +14,11 @@ h1{
 	padding: 5px;
     text-shadow: 2px gray;
     text-transform: capitalize;
-
+    
+}
+h1:hover{
+	background-image: url(dest2.jpeg);
+    background-size: 100% 100%;
 }
 #div1:hover{
 	background-image: url(paris.jpeg);
@@ -30,13 +35,14 @@ h1{
 }
 .content{
 	overflow: auto;
-	margin: 10px;
+	margin: 9px;
 	border:2px solid gray;
 	padding:10px;
 	float: left;
+	font-size: bold;
 	position: relative;
-	width:30%;
-	height: 400px;
+	width:31.5%;
+	height: 500px;
 	float: left;
 	text-align: justify-all;
 	font-family: cursive;
@@ -44,7 +50,7 @@ h1{
 }
 .head{
   padding: 3px;
-  font-size: 18px;
+  font-size: bold;
   position: absolute;
   top: 0px;
   right: 0px;
